@@ -1,0 +1,104 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:#152843;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  gap: 40px;
+                
+}  
+.logo-m {
+ font-size: 5px;
+ color: #fff;
+ text-decoration: none;
+ margin-left: 20px;
+ padding-right: 30px;
+}
+.logo-m img {
+   max-width: 100px;
+   background-size: contain;
+   border-radius: 50%;
+ } 
+.nav-links {
+   list-style: none;           
+   display: flex;              
+   gap: 20px;                 
+   margin-right: auto;         
+}
+.nav-links a {
+    color: #ddd9d9;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+}  
+
+ .background-image {
+    background-image: url('./image/retirees.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    justify-content: center;
+   align-items: center;
+}
+        
+.transparent-section { 
+    background-color: #d4dbeebd; 
+    height: 95vh;
+    padding: 20px;
+    text-align: center;
+    margin-right: 50%;
+   
+}
+        
+h2 {
+    margin: 0;
+    color: #0c046d; 
+    margin-top: 40%;
+}
+.login-button,.Signup-button {
+    background-color: #3b3b98;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+        
+.login-button  {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 60%;
+  padding: 10px 20px;
+  background-color: #241e40; 
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.login-button a {
+    text-decoration: none;
+    color: white;
+  }
+  .Signup-button a {   
+    color: white;
+    text-decoration: none;
+   }
+.Signup-button {   
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #241e40; 
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px; 
+ }
